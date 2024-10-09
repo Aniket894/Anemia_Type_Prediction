@@ -117,6 +117,10 @@ The model training module trains several machine learning classification models,
 - KNeighbors Classifier
 - XGB Classifier
 
+
+![model_accuracy_comparison](https://github.com/user-attachments/assets/aba7cd6a-03c7-4d31-b9cb-98b378d2085b)
+
+
 The best-performing model is saved as `best_model.pkl` in the `artifacts/` folder.
 
 ### 8. Training Pipeline  
@@ -127,6 +131,12 @@ The prediction pipeline uses `best_model.pkl` and `preprocessor.pkl` to predict 
 
 ### 10. Flask (Web Interface)  
 The Flask app provides a web interface where healthcare professionals can input patient blood test data and predict medical diagnoses. Input fields are handled by `index.html`, and results are displayed in `results.html`.
+
+
+![Screenshot 10-09-2024 07 56 44](https://github.com/user-attachments/assets/782eb0d4-b793-47d0-8923-cb62d097ee69)
+
+![Screenshot 10-09-2024 08 02 07](https://github.com/user-attachments/assets/93359428-4ba9-4021-b915-d3086b04bd46)
+
 
 ### 11. Logging  
 The `logger.py` file captures logs for processes such as data ingestion, transformation, and model training, aiding in debugging and workflow monitoring.
