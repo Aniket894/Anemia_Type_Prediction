@@ -60,7 +60,7 @@ The dataset contains 1,281 entries with 15 columns, capturing blood cell analysi
 │   ├── RandomForestClassifier.pkl
 │   ├── AdaBoostClassifier.pkl
 │   ├── GradientBoostingClassifier.pkl
-│   ├── XGBoostClassifier.pkl
+│   ├── SVClassifier.pkl
 │   ├── KNeighborsClassifier.pkl
 │   └── preprocessor.pkl
 │
@@ -115,7 +115,7 @@ The model training module trains several machine learning classification models,
 - AdaBoost Classifier
 - Gradient Boosting Classifier
 - KNeighbors Classifier
-- XGB Classifier
+- SVC
 
 
 ![model_accuracy_comparison](https://github.com/user-attachments/assets/aba7cd6a-03c7-4d31-b9cb-98b378d2085b)
